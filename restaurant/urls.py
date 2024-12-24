@@ -13,9 +13,9 @@ urlpatterns = [
     path('home/', views.index, name='home'),
     # path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     #path('', include(router.urls)),
-    # path('menu/', MenuView.as_view()),
+    #path('menu/', MenuView.as_view(), name='menu'),
     # path('bookings/', BookView.as_view()),
-    path('menu/', MenuItemView.as_view()),
+    path('menu/', MenuItemView.as_view(), name='menu'),
     path('menu/<int:pk>', SingleMenuItemView.as_view()),    
     path('securedview/', views.securedview),
     
