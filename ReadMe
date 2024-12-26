@@ -1,0 +1,12 @@
+
+restaurant/api-token-auth/
+restaurant/home/
+restaurant/menu/
+restaurant/menu/<int:pk>
+restaurant/securedview/
+restaurant/booking/
+restaurant/booking/tables/
+auth/
+
+
+
